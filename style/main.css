@@ -634,8 +634,16 @@ hr {
     margin-top: 15px; }
 
   .container {
-    width: 280px;
+    width: 1200px;
     margin: 0 auto; }
+
+  .left {
+    float: left;
+    width: 500px; }
+
+  right {
+    float: right;
+    width: 500px; }
 
   .score-container, .best-container {
     margin-top: 0;
