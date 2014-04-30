@@ -198,6 +198,13 @@ hr {
   100% {
     margin-top: 20%; } }
 
+.python-text {
+  float: left;
+  color: #00aa00;
+  line-height: 42px;
+  margin-top: 20px;
+  margin-bottom: 0; }
+
 .python-container {
   margin-top: 40px;
   position: relative;
@@ -217,6 +224,22 @@ hr {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+.robot-restart {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  float: right; }
+
 .game-container {
   margin-top: 40px;
   position: relative;
@@ -621,7 +644,7 @@ hr {
     display: inline-block;
     vertical-align: middle; }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
   html, body {
     font-size: 15px; }
 
@@ -634,7 +657,9 @@ hr {
     margin-top: 15px; }
 
   .container {
-    width: 560px;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
     margin: 0 auto; }
 
   .left {
@@ -654,23 +679,37 @@ hr {
     margin-bottom: 10px; }
 
   .game-intro {
-    width: 55%;
+    width: 65%;
     display: block;
     box-sizing: border-box;
     line-height: 1.65; }
 
   .restart-button {
-    width: 42%;
+    width: 32%;
     padding: 0;
     display: block;
     box-sizing: border-box;
     margin-top: 2px; }
+
+  .python-text {
+    width: 65%;
+    color: #00aa00;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.65; }
 
   .python-container {
     width: 100%;
     display: block;
     box-sizing: border-box;
     line-height: 20; }
+
+  .robot-restart {
+    width: 42%;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 2px; }
 
   .game-container {
     margin-top: 17px;
