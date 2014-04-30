@@ -621,7 +621,7 @@ hr {
     display: inline-block;
     vertical-align: middle; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 560px) {
   html, body {
     font-size: 15px; }
 
@@ -634,16 +634,16 @@ hr {
     margin-top: 15px; }
 
   .container {
-    width: 1200px;
+    width: 560px;
     margin: 0 auto; }
 
   .left {
     float: left;
-    width: 500px; }
+    width: 280px; }
 
   right {
     float: right;
-    width: 500px; }
+    width: 280px; }
 
   .score-container, .best-container {
     margin-top: 0;
