@@ -7,7 +7,7 @@ from scipy.optimize import fmin_l_bfgs_b
 import MySQLdb as mdb
 
 def create_mdb(table):
-	con = mdb.connect('localhost','root','jonny5','testdb')
+	con = mdb.connect('localhost','root',' ','testdb')
 
 	with con:
 		cur = con.cursor()
@@ -21,7 +21,7 @@ def create_mdb(table):
 	print 'created table for training data"
 
 def add2mdb(table,invec,output):
-	con = mdb.connect('localhost','root','jonny5','testdb')
+	con = mdb.connect('localhost','root',' ','testdb')
 
 	with con:
 		cur = con.cursor()
@@ -32,7 +32,7 @@ def add2mdb(table,invec,output):
 		cur.execute(command)
 
 def readmdb(table):
-	con = mdb.connect('localhost','root','jonny5','testdb')
+	con = mdb.connect('localhost','root',' ','testdb')
 
 	with con:
 		cur = con.cursor()
